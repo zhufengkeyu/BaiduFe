@@ -1,0 +1,67 @@
+.header {
+    background-color: coral;
+    border: black solid 2px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 2;
+
+
+
+}
+
+.wrap {
+    height: 50000px;
+}
+.nav_top_left {
+    list-style: none;
+    float: left;
+    margin-left: 5%;
+}
+
+.nav_top_right {
+    list-style: none;
+    float: right;
+    margin-right: 5%;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.l_li {
+    background-color: red;
+    float: left;
+    margin: 3px;
+    list-style: none;
+}
+
+.r_li {
+    background-color: red;
+    float: right;
+    margin:3px;
+    list-style: none;
+}
+
+
+.nav {
+    position: absolute;
+    left: 0;
+    border: black solid 2px;
+
+}
+.main {
+    top: 30px;
+    background-color: aqua;
+    border: black solid 1px;
+    padding: 20px;
+    position: relative;
+}
+.section {
+    border:2px black solid;
+    width: 100%;
+    margin-left:80px;
+}
