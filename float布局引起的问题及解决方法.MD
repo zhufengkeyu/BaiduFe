@@ -6,3 +6,4 @@
 
 解决方法2：在父容器中加一个空块，clear:both
 
+解决方法3*：在父容器中 overflow:auto
