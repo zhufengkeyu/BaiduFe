@@ -1,0 +1,86 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+p {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.header  {
+    background-color:grey;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+
+}
+
+.main {
+    margin-bottom:0;
+    margin-top:0;
+
+}
+.clearfix {
+    clear:both;
+    margin: 0;
+}
+
+
+
+h2 {
+    font-size:14px;
+}
+
+h4 {
+    float:left;
+    height: 45px;
+    line-height: 45px;
+    margin-right:5px;
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-left:2px;
+
+
+}
+.test {
+    float:left;
+    height:45px;
+    line-height: 45px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+
+.one,.three,.five,.seven,.nine {
+    box-sizing: border-box;
+    float: left;
+    height: 90px;
+    width: 15%;
+    background-color: gainsboro;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 60px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.two,.four,.six,.eight,.ten{
+    box-sizing: border-box;
+    float: right;
+    height: 90px;
+    width:85%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    line-height: 70px;
+    border-style: solid;
+    border-color: grey;
+    border-width:1px;
+}
