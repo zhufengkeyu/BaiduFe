@@ -4,6 +4,6 @@
 
 解决方法1：让父容器也具有float属性
 
-解决方法2：在父容器中加一个空块，clear:both
+解决方法2：在父容器底部加一个空块，clear:both
 
-解决方法3*：在父容器中 overflow:auto
+解决方法3*：在父容器中 overflow:auto   原因未知·····
